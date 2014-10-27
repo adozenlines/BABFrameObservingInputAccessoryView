@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60171FE919F68BDD00B266A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60171FE819F68BDD00B266A8 /* main.m */; };
+		60171FEC19F68BDD00B266A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60171FEB19F68BDD00B266A8 /* AppDelegate.m */; };
+		60171FEF19F68BDD00B266A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60171FEE19F68BDD00B266A8 /* ViewController.m */; };
+		60171FF219F68BDD00B266A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60171FF019F68BDD00B266A8 /* Main.storyboard */; };
+		60171FF419F68BDD00B266A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60171FF319F68BDD00B266A8 /* Images.xcassets */; };
+		60171FF719F68BDD00B266A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60171FF519F68BDD00B266A8 /* LaunchScreen.xib */; };
+		6048666B19FF002700E6D272 /* BABFrameObservingInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6048666A19FF002700E6D272 /* BABFrameObservingInputAccessoryView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60171FE319F68BDD00B266A8 /* Sticky Keyboard Input View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sticky Keyboard Input View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60171FE719F68BDD00B266A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60171FE819F68BDD00B266A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60171FEA19F68BDD00B266A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60171FEB19F68BDD00B266A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60171FED19F68BDD00B266A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60171FEE19F68BDD00B266A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60171FF119F68BDD00B266A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60171FF319F68BDD00B266A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60171FF619F68BDD00B266A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6048666919FF002700E6D272 /* BABFrameObservingInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BABFrameObservingInputAccessoryView.h; sourceTree = "<group>"; };
+		6048666A19FF002700E6D272 /* BABFrameObservingInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BABFrameObservingInputAccessoryView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60171FE019F68BDD00B266A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60171FDA19F68BDD00B266A8 = {
+			isa = PBXGroup;
+			children = (
+				60171FE519F68BDD00B266A8 /* Sticky Keyboard Input View */,
+				60171FE419F68BDD00B266A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60171FE419F68BDD00B266A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60171FE319F68BDD00B266A8 /* Sticky Keyboard Input View.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60171FE519F68BDD00B266A8 /* Sticky Keyboard Input View */ = {
+			isa = PBXGroup;
+			children = (
+				60171FEA19F68BDD00B266A8 /* AppDelegate.h */,
+				60171FEB19F68BDD00B266A8 /* AppDelegate.m */,
+				60171FED19F68BDD00B266A8 /* ViewController.h */,
+				60171FEE19F68BDD00B266A8 /* ViewController.m */,
+				60171FF019F68BDD00B266A8 /* Main.storyboard */,
+				60171FF319F68BDD00B266A8 /* Images.xcassets */,
+				60171FF519F68BDD00B266A8 /* LaunchScreen.xib */,
+				6048666819FF002700E6D272 /* BABFrameObservingInputAccessoryView */,
+				60171FE619F68BDD00B266A8 /* Supporting Files */,
+			);
+			path = "Sticky Keyboard Input View";
+			sourceTree = "<group>";
+		};
+		60171FE619F68BDD00B266A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60171FE719F68BDD00B266A8 /* Info.plist */,
+				60171FE819F68BDD00B266A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6048666819FF002700E6D272 /* BABFrameObservingInputAccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				6048666919FF002700E6D272 /* BABFrameObservingInputAccessoryView.h */,
+				6048666A19FF002700E6D272 /* BABFrameObservingInputAccessoryView.m */,
+			);
+			name = BABFrameObservingInputAccessoryView;
+			path = ../../BABFrameObservingInputAccessoryView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60171FE219F68BDD00B266A8 /* Sticky Keyboard Input View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6017200619F68BDD00B266A8 /* Build configuration list for PBXNativeTarget "Sticky Keyboard Input View" */;
+			buildPhases = (
+				60171FDF19F68BDD00B266A8 /* Sources */,
+				60171FE019F68BDD00B266A8 /* Frameworks */,
+				60171FE119F68BDD00B266A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sticky Keyboard Input View";
+			productName = KeyboardTest;
+			productReference = 60171FE319F68BDD00B266A8 /* Sticky Keyboard Input View.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60171FDB19F68BDD00B266A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Bryn Bodayle";
+				TargetAttributes = {
+					60171FE219F68BDD00B266A8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 60171FDE19F68BDD00B266A8 /* Build configuration list for PBXProject "Sticky Keyboard Input View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60171FDA19F68BDD00B266A8;
+			productRefGroup = 60171FE419F68BDD00B266A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60171FE219F68BDD00B266A8 /* Sticky Keyboard Input View */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60171FE119F68BDD00B266A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60171FF219F68BDD00B266A8 /* Main.storyboard in Resources */,
+				60171FF719F68BDD00B266A8 /* LaunchScreen.xib in Resources */,
+				60171FF419F68BDD00B266A8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60171FDF19F68BDD00B266A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60171FEF19F68BDD00B266A8 /* ViewController.m in Sources */,
+				60171FEC19F68BDD00B266A8 /* AppDelegate.m in Sources */,
+				6048666B19FF002700E6D272 /* BABFrameObservingInputAccessoryView.m in Sources */,
+				60171FE919F68BDD00B266A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60171FF019F68BDD00B266A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60171FF119F68BDD00B266A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60171FF519F68BDD00B266A8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60171FF619F68BDD00B266A8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6017200419F68BDD00B266A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6017200519F68BDD00B266A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6017200719F68BDD00B266A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Sticky Keyboard Input View/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-Wall";
+				PRODUCT_NAME = "Sticky Keyboard Input View";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6017200819F68BDD00B266A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Sticky Keyboard Input View/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-Wall";
+				PRODUCT_NAME = "Sticky Keyboard Input View";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60171FDE19F68BDD00B266A8 /* Build configuration list for PBXProject "Sticky Keyboard Input View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6017200419F68BDD00B266A8 /* Debug */,
+				6017200519F68BDD00B266A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6017200619F68BDD00B266A8 /* Build configuration list for PBXNativeTarget "Sticky Keyboard Input View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6017200719F68BDD00B266A8 /* Debug */,
+				6017200819F68BDD00B266A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60171FDB19F68BDD00B266A8 /* Project object */;
+}
