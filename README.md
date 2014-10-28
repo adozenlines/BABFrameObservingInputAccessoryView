@@ -15,7 +15,7 @@ This is a UIView subclass which allows for observing the frame of a UITextView o
 
 ### Sample Code & Usage
 
-Here is a sample view did load 
+Here is a sample viewDidLoad implementation.
 ```objective-c
 - (void)viewDidLoad {
     [super viewDidLoad];
