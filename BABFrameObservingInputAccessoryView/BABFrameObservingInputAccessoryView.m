@@ -7,6 +7,8 @@
 
 #import "BABFrameObservingInputAccessoryView.h"
 
+static void *BABFrameObservingContext = &BABFrameObservingContext;
+
 @interface BABFrameObservingInputAccessoryView()
 
 @property (nonatomic, assign, getter=isObserverAdded) BOOL observerAdded;
@@ -32,7 +34,7 @@
     if(_observerAdded) {
         
         NSString *observationKeyPath = [self observationKeyPath];
-        [self.superview removeObserver:self forKeyPath:observationKeyPath];
+        [self.superview removeObserver:self forKeyPath:observationKeyPath context:BABFrameObservingContext];
     }
 }
 
@@ -51,10 +53,10 @@
     
     if(self.isObserverAdded) {
         
-        [self.superview removeObserver:self forKeyPath:keyPath];
+        [self.superview removeObserver:self forKeyPath:keyPath context:BABFrameObservingContext];
     }
     
-    [newSuperview addObserver:self forKeyPath:keyPath options:0 context:NULL];
+    [newSuperview addObserver:self forKeyPath:keyPath options:0 context:BABFrameObservingContext];
     self.observerAdded = YES;
     
     [super willMoveToSuperview:newSuperview];
