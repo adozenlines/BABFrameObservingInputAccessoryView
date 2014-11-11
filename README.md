@@ -44,5 +44,11 @@ Here is a sample viewDidLoad implementation.
 
 There is a sample project included which demonstrates usage.
 
+### More Info
+
 I wrote a [blog post](http://www.brynbodayle.com/wp-admin/post.php?post=1636&action=edit&message=10) I wrote about tackling this problem.
+
+###Feedback
+
+I'd love to here any questions, suggestions, or issues you might have. I've been using this in several of my apps, so it will remain in active development. Feel free to reach out on (Twitter)[http://twitter.com/brynbodayle] for feedback.
 
