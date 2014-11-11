@@ -50,5 +50,5 @@ I wrote a [blog post](http://www.brynbodayle.com/wp-admin/post.php?post=1636&act
 
 ###Feedback
 
-I'd love to here any questions, suggestions, or issues you might have. I've been using this in several of my apps, so it will remain in active development. Feel free to reach out on (Twitter)[http://twitter.com/brynbodayle] for feedback.
+I'd love to here any questions, suggestions, or issues you might have. I've been using this in several of my apps, so it will remain in active development. Feel free to reach out on [Twitter](http://twitter.com/brynbodayle) or via issues if you have any feedback.
 
