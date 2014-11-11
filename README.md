@@ -46,7 +46,7 @@ There is a sample project included which demonstrates usage.
 
 ### More Info
 
-I wrote a [blog post](http://www.brynbodayle.com/wp-admin/post.php?post=1636&action=edit&message=10) I wrote about tackling this problem.
+I wrote a [blog post](http://www.brynbodayle.com/wp-admin/post.php?post=1636&action=edit&message=10) about the history and my decisions in handling this problem.
 
 ###Feedback
 
