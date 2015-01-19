@@ -33,8 +33,8 @@ static void *BABFrameObservingContext = &BABFrameObservingContext;
     
     if(_observerAdded) {
         
-        NSString *observationKeyPath = [self observationKeyPath];
-        [self.superview removeObserver:self forKeyPath:observationKeyPath context:BABFrameObservingContext];
+        [self.superview removeObserver:self forKeyPath:@"frame" context:BABFrameObservingContext];
+        [self.superview removeObserver:self forKeyPath:@"center" context:BABFrameObservingContext];
     }
 }
 
@@ -49,14 +49,15 @@ static void *BABFrameObservingContext = &BABFrameObservingContext;
 
 - (void)willMoveToSuperview:(UIView *)newSuperview {
     
-    NSString *keyPath = [self observationKeyPath];
     
     if(self.isObserverAdded) {
         
-        [self.superview removeObserver:self forKeyPath:keyPath context:BABFrameObservingContext];
+        [self.superview removeObserver:self forKeyPath:@"frame" context:BABFrameObservingContext];
+        [self.superview removeObserver:self forKeyPath:@"center" context:BABFrameObservingContext];
     }
     
-    [newSuperview addObserver:self forKeyPath:keyPath options:0 context:BABFrameObservingContext];
+    [newSuperview addObserver:self forKeyPath:@"frame" options:0 context:BABFrameObservingContext];
+    [newSuperview addObserver:self forKeyPath:@"center" options:0 context:BABFrameObservingContext];
     self.observerAdded = YES;
     
     [super willMoveToSuperview:newSuperview];
@@ -64,16 +65,9 @@ static void *BABFrameObservingContext = &BABFrameObservingContext;
 
 #pragma mark - Observation
 
-- (NSString *)observationKeyPath {
-    
-    return [[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0 ? @"center" : @"frame";
-}
-
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
     
-    NSString *observationKeyPath = [self observationKeyPath];
-    
-    if (object == self.superview && [keyPath isEqualToString:observationKeyPath]) {
+    if (object == self.superview && ([keyPath isEqualToString:@"frame"] || [keyPath isEqualToString:@"center"])) {
         
         if(self.inputAcessoryViewFrameChangedBlock) {
             

@@ -32,9 +32,9 @@
     
     __weak typeof(self)weakSelf = self;
     
-    inputView.inputAcessoryViewFrameChangedBlock = ^(CGRect frame){
+    inputView.inputAcessoryViewFrameChangedBlock = ^(CGRect inputAccessoryViewFrame){
         
-        CGFloat value = CGRectGetHeight(weakSelf.view.frame) - CGRectGetMinY(weakSelf.textField.inputAccessoryView.superview.frame) - CGRectGetHeight(weakSelf.textField.inputAccessoryView.frame);
+        CGFloat value = CGRectGetHeight(weakSelf.view.frame) - CGRectGetMinY(inputAccessoryViewFrame) - CGRectGetHeight(weakSelf.textField.inputAccessoryView.frame);
         
         weakSelf.toolbarContainerVerticalSpacingConstraint.constant = MAX(0, value);
         
