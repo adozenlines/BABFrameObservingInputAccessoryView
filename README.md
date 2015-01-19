@@ -10,6 +10,7 @@ Supports iOS 7.0+
 * Free of method swizzling
 * No associated objects or other runtime hacks
 * Works easily with or without Auto Layout
+* Tested on iOS 7, iOS 8, iPhone & iPad
 
 This is a UIView subclass which allows for observing the frame of a UITextView or UITextField's inputAcessoryView. This allows your to keep the text field above the keyboard as it moves. Also this allows for interactive keyboard dismissal using UIScrollView's keyboardDismissMode property.
 
@@ -40,3 +41,14 @@ Here is a sample viewDidLoad implementation.
     };
 }
 ```
+
+There is a sample project included which demonstrates usage.
+
+### More Info
+
+I wrote a [blog post](http://www.brynbodayle.com/messages-style-input-view-in-ios-8/) about the history and my decisions in handling this problem.
+
+###Feedback
+
+I'd love to here any questions, suggestions, or issues you might have. I've been using this in several of my apps, so it will remain in active development. Feel free to reach out on [Twitter](http://twitter.com/brynbodayle) or via issues if you have any feedback.
+
